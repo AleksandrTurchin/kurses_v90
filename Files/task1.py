@@ -1,7 +1,7 @@
 # 1) Напишите программу, которая принимает поисковый запрос и выводит названия текстовых файлов,
 # содержащих искомую подстроку. Все файлы располагаются в заданной директории.
 import os
-folder = 'C:\\Users\\37529\\PycharmProjects\\exercises_28.07.2022'  # директория с файлами
+folder = 'C:\\Users\\37529\\PycharmProjects\\kurses_v90\\Files'  # директория с файлами
 answer = set()                                                                   # если подстрока может встречаться в одном и том же файле несколько раз используем set
 search = input('Input the search string:')                                       # для примера: dict
 for filename in os.listdir(folder):                                              # итерируемся по списку (получили с помощью os.listdir) c именами файлов в заданной директории (file.txt, text.txt, text.txt)

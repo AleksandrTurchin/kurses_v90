@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81941e9a-914b-44db-a7de-a5e97f0c4138" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+    <list default="true" id="81941e9a-914b-44db-a7de-a5e97f0c4138" name="Changes" comment="updeted homeworks">
+      <change beforePath="$PROJECT_DIR$/Files/task1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Files/task1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +66,29 @@
       <option name="presentableId" value="Default" />
       <updated>1660577383150</updated>
     </task>
+    <task id="LOCAL-00001" summary="updeted homeworks">
+      <created>1660579225407</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1660579225407</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="updeted homeworks" />
+    <option name="LAST_COMMIT_MESSAGE" value="updeted homeworks" />
   </component>
 </project>
