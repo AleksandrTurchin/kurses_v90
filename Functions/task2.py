@@ -3,12 +3,13 @@
 
 _list = [1, [2], 46, 46, {1}, {2: 1}, (1, 2), 'qwerty', 3.45]
 
-_set = {}
-for i in _list:
-    try:
+
+try:
+    _set = {}
+    for i in _list:
         _set.add(i)
-    except (AttributeError, TypeError):
-        pass
-        #  i = None
-        # _list.remove(i)
-print(_set)
+except (AttributeError, TypeError):
+    pass
+    #  i = None
+    # _list.remove(i)
+    print(_set)
