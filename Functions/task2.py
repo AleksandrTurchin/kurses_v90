@@ -8,6 +8,7 @@ for i in _list:
     try:
         _set.add(i)
     except (AttributeError, TypeError):
-        i = None
+        pass
+        #  i = None
         # _list.remove(i)
 print(_set)
