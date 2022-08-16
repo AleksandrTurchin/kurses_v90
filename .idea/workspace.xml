@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81941e9a-914b-44db-a7de-a5e97f0c4138" name="Changes" comment="updeted homeworks">
-      <change beforePath="$PROJECT_DIR$/Functions/task2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Functions/task2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -239,7 +239,21 @@
       <option name="project" value="LOCAL" />
       <updated>1660673508965</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="updeted homeworks">
+      <created>1660673879043</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1660673879043</updated>
+    </task>
+    <task id="LOCAL-00013" summary="updeted homeworks">
+      <created>1660673899776</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1660673899776</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

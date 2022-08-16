@@ -11,3 +11,4 @@ for i in _list:
     except (AttributeError, TypeError):
         pass
 print(_set)
+print(type(_set))
