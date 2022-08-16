@@ -9,4 +9,5 @@ for i in _list:
         _set.add(i)
     except (AttributeError, TypeError):
         i = None
+        # _list.remove(i)
 print(_set)
