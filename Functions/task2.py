@@ -2,12 +2,11 @@
 # Если какие-то элементы нельзя хешировать, то пропускаем их.  Результаты выведите на экран.
 
 _list = [1, [2], 46, 46, {1}, {2: 1}, (1, 2), 'qwerty', 3.45]
-_list2 = []
+
+_set = {}
 for i in _list:
     try:
-        print(hash(i))
-    except TypeError as ex_obj:
-        _list2.append(i)
-print(set(_list2))
-
-
+        _set.add(i)
+    except (AttributeError, TypeError):
+        i = None
+print(_set)
