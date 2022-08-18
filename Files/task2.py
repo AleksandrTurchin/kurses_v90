@@ -14,3 +14,4 @@ with open('file.txt', 'r', encoding='utf-8') as f:
     print(strings)
     print(words)
     print(letters_abc)
+print(type(f))
