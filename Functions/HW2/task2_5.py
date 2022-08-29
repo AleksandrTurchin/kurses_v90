@@ -3,6 +3,8 @@
 
 from inspect import signature
 import time                                                                                 # https://docs.python.org/3/library/time.html
+                                                                                            # https://pythonru.com/osnovy/modul-time-v-python
+                                                                                            # https://pythonworld.ru/moduli/modul-time.html
 def decorating_func(own_func):
     def wrapper(*args, **kwargs):
         start_time = time.time()
