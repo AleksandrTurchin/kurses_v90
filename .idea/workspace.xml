@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81941e9a-914b-44db-a7de-a5e97f0c4138" name="Changes" comment="added homeworks about Module">
-      <change afterPath="$PROJECT_DIR$/Stand_modules/task1.py" afterDir="false" />
+    <list default="true" id="81941e9a-914b-44db-a7de-a5e97f0c4138" name="Changes" comment="added homeworks about Stand_modules">
+      <change afterPath="$PROJECT_DIR$/Stand_modules/task2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stand_modules/task3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +47,7 @@
       <recent name="C:\Users\37529\PycharmProjects\kurses_v90\Module\my_pkg" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.task1">
+  <component name="RunManager" selected="Python.task3 (1)">
     <configuration name="my_client (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="kurses_v90" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -81,27 +82,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Module/my_pkg/my_mod.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="my_mod" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="kurses_v90" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Module" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\37529\PycharmProjects\kurses_v90\Module\my_pkg\my_mod.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -173,7 +153,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="task3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="task2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="kurses_v90" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -181,11 +161,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Class" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Stand_modules" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Class/task3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Stand_modules/task2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="task3 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="kurses_v90" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Stand_modules" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Stand_modules/task3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -196,11 +197,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.task3 (1)" />
+        <item itemvalue="Python.task2" />
         <item itemvalue="Python.task1" />
         <item itemvalue="Python.my_client (1)" />
         <item itemvalue="Python.my_mod (1)" />
-        <item itemvalue="Python.my_mod (1)" />
-        <item itemvalue="Python.my_mod" />
       </list>
     </recent_temporary>
   </component>
@@ -402,7 +403,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664735390030</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="added homeworks about Stand_modules">
+      <created>1664736232689</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1664736232689</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -422,6 +430,7 @@
     <MESSAGE value="updeted homeworks" />
     <MESSAGE value="added homeworks about Classes" />
     <MESSAGE value="added homeworks about Module" />
-    <option name="LAST_COMMIT_MESSAGE" value="added homeworks about Module" />
+    <MESSAGE value="added homeworks about Stand_modules" />
+    <option name="LAST_COMMIT_MESSAGE" value="added homeworks about Stand_modules" />
   </component>
 </project>
