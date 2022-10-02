@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81941e9a-914b-44db-a7de-a5e97f0c4138" name="Changes" comment="added homeworks about Classes">
-      <change afterPath="$PROJECT_DIR$/Module/my_client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module/my_pkg/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module/my_pkg/file.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module/my_pkg/my_mod.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="81941e9a-914b-44db-a7de-a5e97f0c4138" name="Changes" comment="added homeworks about Module" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -384,7 +378,21 @@
       <option name="project" value="LOCAL" />
       <updated>1664728047775</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="added homeworks about Module">
+      <created>1664734955668</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1664734955669</updated>
+    </task>
+    <task id="LOCAL-00026" summary="added homeworks about Module">
+      <created>1664735244822</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1664735244822</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -403,6 +411,7 @@
     <MESSAGE value="updeted functions_tasks" />
     <MESSAGE value="updeted homeworks" />
     <MESSAGE value="added homeworks about Classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="added homeworks about Classes" />
+    <MESSAGE value="added homeworks about Module" />
+    <option name="LAST_COMMIT_MESSAGE" value="added homeworks about Module" />
   </component>
 </project>
