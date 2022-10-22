@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81941e9a-914b-44db-a7de-a5e97f0c4138" name="Changes" comment="added homeworks about Stand_modules">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="81941e9a-914b-44db-a7de-a5e97f0c4138" name="Changes" comment="added homeworks about SQL" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -380,7 +378,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665071203413</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="added homeworks about SQL">
+      <created>1666463503290</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1666463503290</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -401,6 +406,7 @@
     <MESSAGE value="added homeworks about Classes" />
     <MESSAGE value="added homeworks about Module" />
     <MESSAGE value="added homeworks about Stand_modules" />
-    <option name="LAST_COMMIT_MESSAGE" value="added homeworks about Stand_modules" />
+    <MESSAGE value="added homeworks about SQL" />
+    <option name="LAST_COMMIT_MESSAGE" value="added homeworks about SQL" />
   </component>
 </project>

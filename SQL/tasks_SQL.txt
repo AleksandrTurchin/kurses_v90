@@ -93,13 +93,16 @@ GROUP BY email
 HAVING COUNT(email) > 1;
 
 
-'''3. Создайте таблицу группы (id (он же номер), название). Обновите таблицу учеников создав внешний ключ на таблицу группы. Напишите запрос на нахождение группы без учеников.'''
+'''3. Создайте таблицу группы (id (он же номер), название).
+Обновите таблицу учеников создав внешний ключ на таблицу группы.
+Напишите запрос на нахождение группы без учеников.'''
 
 CREATE TABLE group_students
 (
 number_group_id integer PRIMARY KEY not null,
 name_group  character varying(254) not null,
-FOREIGN KEY (number_group_id)  REFERENCES students (students_id)
+FOREIGN KEY (number_group_id)
+REFERENCES students (students_id)
 );
 
 
