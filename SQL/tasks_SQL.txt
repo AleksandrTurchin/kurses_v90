@@ -1,0 +1,106 @@
+'''1. Создайте таблицу учеников (ФИО + номер группы). Заполните таблицу 10-ю записями. 
+Выберите записи только с четными id.'''
+
+CREATE TABLE students
+(
+students_id integer PRIMARY KEY not null,
+students_surname character varying(254) not null,
+students_firstname character varying(254) not null,
+students_middlename character varying(254) not null,
+students_number_group numeric(8,0) not null
+);
+
+INSERT INTO students VALUES
+(
+1,
+'Иванов',
+'Александр',
+'Петрович',
+123
+);
+
+INSERT INTO students (students_id, students_surname, students_firstname, students_middlename, students_number_group) 
+VALUES
+(1, 'Иванов', 'Александр', 'Петрович', 123)б
+(2, 'Петров', 'Иван', 'Александрович', 222),
+(3, 'Александрович', 'Петр', 'Иванович', 123),
+(4, 'Константинович', 'Александр', 'Владимирович', 222),
+(5, 'Сидоров', 'Владимир', 'Максимович', 123),
+(6, 'Кузнецов', 'Андрей', 'Олегович', 123),
+(7, 'Васильев', 'Олег', 'Сергеевич', 222),
+(8, 'Соколов', 'Максим', 'Витальевич', 222),
+(9, 'Волков', 'Виталий', 'Анатольевич', 123),
+(10, 'Морозов', 'Сергей', 'Семенович', 222);
+
+
+SELECT students_id, students_surname, students_firstname, students_middlename, students_number_group 
+FROM students 
+WHERE students_id % 2 = 0;
+
+
+'''2. Измените таблицу учеников, добавив поле email. 
+Обновите таблицу, заполнив поле email. 
+Напишите запрос для нахождения дублей в поле email.'''
+
+ALTER TABLE students ADD email character varying(254);
+
+
+UPDATE students 
+SET email = '133@gmail.com' 
+WHERE students_id = 1;
+
+UPDATE students
+SET email = 'kjbnf@gmail.com' 
+WHERE students_id = 2;
+
+UPDATE students
+SET email = 'fgdfgdf@gmail.com' 
+WHERE students_id = 3;
+
+UPDATE students
+SET email = 'dgfds@gmail.com' 
+WHERE students_id = 4;
+
+UPDATE students
+SET email = 'chuv@gmail.com' 
+WHERE students_id = 5;
+
+UPDATE students
+SET email = '133@gmail.com' 
+WHERE students_id = 6;
+
+UPDATE students
+SET email = 'lbndf@gmail.com' 
+WHERE students_id = 7;
+
+UPDATE students
+SET email = 'ireytttttwow@gmail.com' 
+WHERE students_id = 8;
+
+UPDATE students
+SET email = 'wrwe@gmail.com' 
+WHERE students_id = 9;
+
+UPDATE students
+SET email = 'zcvnfg@gmail.com' 
+WHERE students_id = 10;
+
+
+SELECT email, 
+COUNT(email)
+FROM students
+GROUP BY email
+HAVING COUNT(email) > 1;
+
+
+'''3. Создайте таблицу группы (id (он же номер), название). Обновите таблицу учеников создав внешний ключ на таблицу группы. Напишите запрос на нахождение группы без учеников.'''
+
+CREATE TABLE group_students
+(
+number_group_id integer PRIMARY KEY not null,
+name_group  character varying(254) not null,
+FOREIGN KEY (number_group_id)  REFERENCES students (students_id)
+);
+
+
+ 
