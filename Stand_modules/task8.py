@@ -10,10 +10,11 @@ https://docs-python.ru/standart-library/modul-functools-python/funktsija-partial
 """
 
 from functools import partial
+
+
 def func(u, v, w, x):
     return u * 4 + v * 3 + w * 2 + x
 
+
 partial_x = partial(func, 4, 5, 6)
 print(partial_x(17))
-
-#60
