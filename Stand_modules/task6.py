@@ -13,7 +13,7 @@
 
 import time
 import datetime
-print("Текущая дата и время: " , datetime.datetime.now())
+print("Текущая дата и время: ", datetime.datetime.now())
 print("Текущий год: ", datetime.date.today().strftime("%Y"))
 print("Месяц года: ", datetime.date.today().strftime("%B"))
 print("номер недели в году: ", datetime.date.today().strftime("%W"))
