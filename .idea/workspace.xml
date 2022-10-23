@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81941e9a-914b-44db-a7de-a5e97f0c4138" name="Changes" comment="added homeworks about SQL">
+    <list default="true" id="81941e9a-914b-44db-a7de-a5e97f0c4138" name="Changes" comment="added homeworks about Standart Modules">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stand_modules/task2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Stand_modules/task2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stand_modules/task6.py" beforeDir="false" afterPath="$PROJECT_DIR$/Stand_modules/task6.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stand_modules/task7.py" beforeDir="false" afterPath="$PROJECT_DIR$/Stand_modules/task7.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stand_modules/task8.py" beforeDir="false" afterPath="$PROJECT_DIR$/Stand_modules/task8.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,28 +46,7 @@
       <recent name="C:\Users\37529\PycharmProjects\kurses_v90\Module\my_pkg" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.task7">
-    <configuration name="task1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="kurses_v90" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Stand_modules" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Stand_modules/task1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.task8">
     <configuration name="task2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="kurses_v90" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -154,13 +131,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="task8" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="kurses_v90" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Stand_modules" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Stand_modules/task8.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.task8" />
         <item itemvalue="Python.task7" />
         <item itemvalue="Python.task6" />
         <item itemvalue="Python.task5" />
         <item itemvalue="Python.task2" />
-        <item itemvalue="Python.task1" />
       </list>
     </recent_temporary>
   </component>
@@ -397,7 +395,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666463941070</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="added homeworks about Standart Modules">
+      <created>1666544920566</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1666544920566</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -419,6 +424,7 @@
     <MESSAGE value="added homeworks about Module" />
     <MESSAGE value="added homeworks about Stand_modules" />
     <MESSAGE value="added homeworks about SQL" />
-    <option name="LAST_COMMIT_MESSAGE" value="added homeworks about SQL" />
+    <MESSAGE value="added homeworks about Standart Modules" />
+    <option name="LAST_COMMIT_MESSAGE" value="added homeworks about Standart Modules" />
   </component>
 </project>
